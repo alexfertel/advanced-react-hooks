@@ -17,7 +17,7 @@ test('clicking the button increments the count', () => {
 
 // this test is using some serious witchcraft 🧙‍♀️
 // don't write tests like this please.
-// I'm just making sure that you're using useReducer
+// I'm just making sure that you're using useContext
 // but your apps should not have tests like this.
 // That's an implementation detail... Read more: https://kcd.im/imp-deets
 test('CountProvider is rendering a context provider with the right value', () => {
